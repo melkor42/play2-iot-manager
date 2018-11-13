@@ -8,7 +8,7 @@ jobs:
     - image: circleci/postgres:9.6-alpine
       environment:
         POSTGRES_USER: user
-        POSTGRES_DB: build
+        POSTGRES_DB: test
         POSTGRES_PASSWORD: password
     working_directory: ~/repo
     environment:
@@ -49,7 +49,7 @@ jobs:
     - image: circleci/postgres:9.6-alpine
       environment:
         POSTGRES_USER: user
-        POSTGRES_DB: build
+        POSTGRES_DB: test
         POSTGRES_PASSWORD: password
     working_directory: ~/repo
     environment:
